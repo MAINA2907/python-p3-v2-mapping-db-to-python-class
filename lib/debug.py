@@ -3,7 +3,6 @@ from department import Department
 
 import ipdb
 
-
 def reset_database():
     Department.drop_table()
     Department.create_table()
@@ -14,3 +13,4 @@ def reset_database():
 
 reset_database()
 ipdb.set_trace()
+
